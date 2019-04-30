@@ -1,5 +1,6 @@
 :root {
   font: 16px / 1 sans-serif;
+  background-color: aqua;
 }
 
 html {
@@ -11,8 +12,64 @@ body {
   min-height: 100%;
 }
 
-h1{
+#top{
+  background: #000000 url("abstract-background-design_1297-84.jpg");
+  margin: 0;
+}
+
+#mainpage-list{
+  margin: 0;
+  background: #ffffff url("background-blur-clean-531880.jpg");
+}
+
+.top-menu>ul>li {
+  color: #ffffff;
+  background: #000000;
+  padding: 5rem;
+}
+
+.page-header {
+  text-align: center;
   color: red;
   font-size: 4rem;
-  align-content: center;
+}
+
+.contentpage-header{
+  text-align: center;
+  color: red;
+  font-size: 4rem;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace
+}
+
+ul{
+  padding: 2rem;
+}
+
+.main-list>li {
+  margin-right: 2em;
+  padding: 0rem;
+  font-size: 2rem;
+  color: coral;
+}
+
+#game-links{
+  margin: 5rem;
+  image-resolution: "width:126px;height:126px;border:0";
+  text-align: center;
+}
+
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
 }
